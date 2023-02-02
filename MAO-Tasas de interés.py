@@ -16,4 +16,4 @@ yr = int (años)
 
 valor_futuro = c*(1+x/100)**yr
 print ("El valor futuro del monto inicial es: " + str(valor_futuro) )  #Coloco el str porque si quiero concatenar toca así, si no lo pongo y uso el +, sale error. 
-
+print ("Su capital inicial de " + str(c) + "con una tasa de interes de" + str (x) + "en un tiempo de" + str(yr) + "años, sera de" + str (valor_futuro))
